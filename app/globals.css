@@ -41,7 +41,7 @@ em { color: var(--gold); font-family: "Noto Naskh Arabic", serif; font-style: no
 .menu-toggle span { display: block; width: 25px; height: 1px; margin: 7px; background: white; }
 
 .hero { position: relative; min-height: 100svh; color: white; overflow: hidden; background: var(--night); }
-.hero-image { position: absolute; inset: 0; background: url("/restaurant-view.jpg") center 52% / cover no-repeat; filter: saturate(.93) contrast(1.04) brightness(.94); animation: heroIn 1.6s ease both; }
+.hero-image { position: absolute; inset: 0; background: url("/hekayet-jabal/restaurant-view.jpg") center 52% / cover no-repeat; filter: saturate(.93) contrast(1.04) brightness(.94); animation: heroIn 1.6s ease both; }
 .hero-shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(4,12,11,.12), rgba(4,12,11,.72) 61%, rgba(4,12,11,.94)), linear-gradient(0deg, rgba(4,12,11,.68), transparent 55%), linear-gradient(180deg, rgba(7,19,18,.28), transparent 28%); }
 @keyframes heroIn { from { transform: scale(1.06); opacity: .4; } to { transform: scale(1); opacity: 1; } }
 .hero-content { position: relative; z-index: 2; width: min(710px, 88vw); padding-top: 25vh; margin-right: 9vw; }
@@ -72,7 +72,7 @@ em { color: var(--gold); font-family: "Noto Naskh Arabic", serif; font-style: no
   position: absolute;
   z-index: -2;
   inset: 0;
-  background: url("/story-terrace.jpg") center 46% / cover no-repeat;
+  background: url("/hekayet-jabal/story-terrace.jpg") center 46% / cover no-repeat;
   filter: grayscale(.55) sepia(.16) contrast(.92) saturate(.8);
   opacity: .65;
 }
@@ -96,7 +96,7 @@ em { color: var(--gold); font-family: "Noto Naskh Arabic", serif; font-style: no
 
 .fire-section { min-height: 900px; display: grid; grid-template-columns: 1fr 1fr; background: #ebe0cd; }
 .fire-visual { position: relative; min-height: 850px; overflow: hidden; }
-.fire-photo { position: absolute; inset: 0; background: linear-gradient(0deg, rgba(7,19,18,.2), transparent), url("/hekayet-jabal-hero.png") 65% center / cover no-repeat; transition: transform 1.2s; }
+.fire-photo { position: absolute; inset: 0; background: linear-gradient(0deg, rgba(7,19,18,.2), transparent), url("/hekayet-jabal/hekayet-jabal-hero.png") 65% center / cover no-repeat; transition: transform 1.2s; }
 .fire-visual:hover .fire-photo { transform: scale(1.025); }
 .fire-stamp { position: absolute; left: 40px; bottom: 40px; width: 130px; height: 130px; display: flex; flex-direction: column; justify-content: center; align-items: center; background: var(--paper); border-radius: 50%; color: var(--ink); transform: rotate(-8deg); box-shadow: 0 15px 40px rgba(0,0,0,.2); }
 .fire-stamp small { font-size: 10px; }.fire-stamp strong{font-family:"Noto Naskh Arabic";font-size:24px}.fire-stamp span{color:var(--red)}
@@ -147,7 +147,7 @@ em { color: var(--gold); font-family: "Noto Naskh Arabic", serif; font-style: no
 .family-art small { position: absolute; z-index: 2; left: 50%; bottom: 17%; transform: translateX(-50%); white-space: nowrap; color: white; font-weight: 700; }
 .bird { position: absolute; z-index: 2; font-size: 50px; color: white; transform: rotate(20deg); }.b1{top:25%;left:20%}.b2{top:17%;left:38%;font-size:30px}
 
-.visit { position: relative; min-height: 720px; display: grid; place-items: center; background: linear-gradient(110deg, rgba(4,12,11,.98), rgba(7,19,18,.75)), url("/night-terrace.png") center / cover; color: white; }
+.visit { position: relative; min-height: 720px; display: grid; place-items: center; background: linear-gradient(110deg, rgba(4,12,11,.98), rgba(7,19,18,.75)), url("/hekayet-jabal/night-terrace.png") center / cover; color: white; }
 .visit-card { position: relative; z-index: 2; width: min(920px, 90vw); padding: 65px 7vw; border: 1px solid rgba(255,255,255,.19); background: rgba(9,21,19,.72); backdrop-filter: blur(12px); }
 .visit h2 { margin-bottom: 45px; }
 .visit-details { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; padding: 25px 0; border-top: 1px solid rgba(255,255,255,.15); border-bottom: 1px solid rgba(255,255,255,.15); }
