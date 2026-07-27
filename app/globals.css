@@ -73,16 +73,16 @@ em { color: var(--gold); font-family: "Noto Naskh Arabic", serif; font-style: no
   z-index: -2;
   inset: 0;
   background: url("/story-terrace.jpg") center 46% / cover no-repeat;
-  filter: grayscale(1) sepia(.2) contrast(.85);
-  opacity: .105;
+  filter: grayscale(.55) sepia(.16) contrast(.92) saturate(.8);
+  opacity: .65;
 }
 .story::after {
   content: "";
   position: absolute;
   z-index: -1;
   inset: 0;
-  background: linear-gradient(90deg, rgba(250,246,237,.72), rgba(250,246,237,.9) 45%, rgba(250,246,237,.58)),
-              linear-gradient(0deg, rgba(250,246,237,.35), transparent 45%, rgba(250,246,237,.45));
+  background: linear-gradient(90deg, rgba(250,246,237,.1), rgba(250,246,237,.56) 48%, rgba(250,246,237,.12)),
+              linear-gradient(0deg, rgba(250,246,237,.08), transparent 48%, rgba(250,246,237,.12));
 }
 .story-kicker, .section-label { display: flex; gap: 16px; align-items: center; font-size: 10px; letter-spacing: .16em; color: #7b6f60; }
 .story-kicker span, .section-label span { color: var(--gold); }
